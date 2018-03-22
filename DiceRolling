@@ -17,7 +17,7 @@ public class DiceRolling{
            int die2 = random.nextInt(6) + 1;
            counts[die1 + die2] += 1;
         }
-       for(int i = 1; i <= 12; i++){
+       for(int i = 2; i <= 12; i++){
            System.out.println(i +"'s= \t" + counts[i] + "\t" + 100.0 * 
            counts[i]/rolls);
         }
